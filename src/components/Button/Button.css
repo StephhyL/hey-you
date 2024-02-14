@@ -1,0 +1,22 @@
+.button {
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: black;
+  border-radius: 5px;
+  border: 2.5px solid black;
+  background-color: rgba(249, 244, 244, 0.721);
+}
+
+.YES:hover {
+  cursor: pointer;
+  transform: scale(1.5) perspective(1px);
+  transition: 0.1s;
+  background-color: rgb(181, 245, 181);
+}
+
+.no:hover {
+  opacity: 0;
+}
